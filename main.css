@@ -1,0 +1,104 @@
+
+/* padding around html to not be full width */
+body{
+    padding: 0px 100px 0px 100px;
+}
+h1{
+   
+    font-size: 60px;
+    font-weight: bolder;   
+    font-family: 'montserrat', sans-serif;
+    color: #df6511
+    
+
+}
+/* drop shadow on main heading of pale orange */
+h2{
+   
+    font-size: 50px;
+    font-family: 'montserrat', sans-serif;
+    text-shadow: 1px 1px 1px #e9a431, 2px 2px 1px #e9a431;
+        color: #df6511
+    
+    
+
+}
+/* additional padding to indent text */
+p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'montserrat', sans-serif;
+    padding: 0px 100px 0px 100px;
+    color: #1e144b;
+    
+    
+}
+/* drop shadow on main heading of orange */
+.header-one {
+    font-size: 100px;
+    font-weight: bolder;   
+    font-family: 'montserrat', sans-serif;
+    text-shadow: 1px 1px 1px #df6511, 2px 2px 1px #df6511;
+    color: #1e144b;
+
+}
+/* smaller italic font than body text */
+li{
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'montserrat', sans-serif;
+    
+    color: #1e144b;
+    
+}
+/* make links, italic, bold and orange */
+a{
+    font-style: italic;
+    font-weight: bolder; 
+    color: #df6511
+
+    
+}
+/* Make image a circle */
+img {
+    border-radius: 50%;
+    
+  }
+
+
+/* The hero image */
+.hero-image {
+  
+  background-image:  url("https://static.wixstatic.com/media/b716cc_71abc94c6eb74157815fa3035144611b~mv2.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #1e144b;
+}
+/* footer background colour of blue */
+footer{
+    
+    background-color: #1e144b;
+    
+}
+/* footer font colour of pale orange and small text */
+.footer-text{
+    color: #e9a431;
+    font-size: small;
+  
+}
